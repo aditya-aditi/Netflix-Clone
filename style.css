@@ -42,6 +42,7 @@ nav img {
     width: 155px;
     position: relative;
     z-index: 10;
+    margin-top: 13px;
 }
 
 nav button {
@@ -160,12 +161,12 @@ nav button {
     text-align: center;
 }
 
-.nav-buttons{
+.nav-buttons {
     display: flex;
     gap: 22px;
 }
 
-.first{
+.first {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,54 +176,54 @@ nav button {
     min-height: 70vh;
 }
 
-.secImg{
+.secImg {
     position: relative;
 }
 
-.secImg img{
+.secImg img {
     width: 30vw;
     position: relative;
     z-index: 10;
 }
 
-.secImg video{
+.secImg video {
     position: absolute;
     top: 72px;
     right: 62px;
     width: 338px;
 }
 
-.first .botSectText span{
+.first .botSectText span {
     font-size: 48px;
-    font-weight: 900;   
+    font-weight: 900;
 }
 
-.first .botSectText p{
+.first .botSectText p {
     font-size: 24px;
     font-weight: 400;
     margin-top: 10px;
 }
 
-.second .secImg img{
+.second .secImg img {
     width: 36vw;
 }
 
-.third .secImg img{
+.third .secImg img {
     width: 36vw;
 }
 
-.fourth .secImg img{
+.fourth .secImg img {
     width: 33vw;
 }
 
-.third .secImg video{
+.third .secImg video {
     position: absolute;
     top: 36px;
     right: 111px;
     width: 338px;
 }
 
-.faqbox{
+.faqbox {
     display: flex;
     background-color: #2D2D2D;
     padding: 20px 34px;
@@ -236,16 +237,16 @@ nav button {
     transition-duration: 0.3s;
 }
 
-.faqbox:hover{
+.faqbox:hover {
     background-color: #565656;
 }
 
-.faqbox span:first-child{
+.faqbox span:first-child {
     font-size: 24px;
     font-weight: 400;
 }
 
-.faq{
+.faq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,10 +254,84 @@ nav button {
     gap: 10px;
 }
 
-.faq>h2{
+.faq>h2 {
     font-size: 48px;
     color: #fff;
     font-weight: 900;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+.botGetStartedBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.botGetStartedBox p:first-child {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    /* margin-top: 60px; */
+    margin-bottom: 20px;
+}
+
+.botGetStartedBox .getStartedBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.botGetStartedBox .getStartedBtn input {
+    padding: 17px 35px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(15, 15, 15, 0.5);
+    border: 1px solid #626161;
+    color: #fff;
+    width: 355px;
+    font-weight: 600;
+}
+
+footer {
+    max-width: 75vw;
+    margin: auto;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+}
+
+footer p:first-child {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer p{
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .btn {
+    width: 120px;
+    margin: 20px 0px;
+}
+
+.footer-items a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
 }
