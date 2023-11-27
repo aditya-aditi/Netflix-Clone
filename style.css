@@ -196,6 +196,7 @@ nav button {
 .first .botSectText span {
     font-size: 48px;
     font-weight: 900;
+    /* margin: 34px 0px; */
 }
 
 .first .botSectText p {
@@ -205,7 +206,7 @@ nav button {
 }
 
 .second .secImg img {
-    width: 36vw;
+    width: 440px;
 }
 
 .third .secImg img {
@@ -213,7 +214,7 @@ nav button {
 }
 
 .fourth .secImg img {
-    width: 33vw;
+    width: 555px;
 }
 
 .third .secImg video {
@@ -314,7 +315,7 @@ footer p:first-child {
     color: rgba(255, 255, 255, 0.7);
 }
 
-footer p{
+footer p {
     margin: 20px 0px;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -334,4 +335,118 @@ footer .btn {
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
     font-weight: 400;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hero :first-child {
+        font-size: 32px;
+    }
+
+    .hero :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero input {
+        padding-right: 0rem;
+        padding-left: 1rem;
+        padding-top: 10px;
+        height: 20px;
+    }
+
+    .hero input::placeholder {
+        font-size: 16px;
+    }
+
+    .hero{
+        height: 89vh;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    nav img {
+        width: 116px;
+        margin-top: 10px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        min-height: 500px;
+    }
+
+    .first .botSectText span {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .first .botSectText p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .botSectText {
+        margin: 34px 0px;
+    }
+
+    .secImg video {
+        top: 53px;
+        right: 48px;
+        width: 247px;
+    }
+
+    .secImg img {
+        width: 340px;
+    }
+
+    .faq>h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .botGetStartedBox p:first-child {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .botGetStartedBox .getStartedBtn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botGetStartedBox .getStartedBtn input {
+        padding: 19px 10px;
+    }
+
+    .btn-red {
+        width: 201px;
+    }
+
+    .third .secImg img{
+        width: 340px;
+    }
+
+    .third .secImg video{
+        top: 23px;
+        right: 67px;
+        width: 210px;
+    }
+
+    .fourth .secImg img {
+        width: 380px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
 }
